@@ -5,16 +5,16 @@
 
 #variables modifiables par l'utilisateur
 
-DIR="/home/$USER/crypto_project"
+DIR="/home/ialy/crypto_project"
 CLE_PR="private.pem"
 CLE_PU="public.pem"
 SUFFIX_CR=".crypt"
 MESS_DRC="message_decrypt.txt"
 SUFFIX_DCR=".decrypt"
-DIR_CLE="/home/$USER/crypto_project/key" 
-DECRYPT="/home/$USER/crypto_project/todecrypt"
-DECRYPTED="/home/$USER/crypto_project/decrypted"
-CRYPTED="/home/$USER/crypto_project/crypted"
+DIR_CLE="/home/ialy/crypto_project/key" 
+DECRYPT="/home/ialy/crypto_project/todecrypt"
+DECRYPTED="/home/ialy/crypto_project/decrypted"
+CRYPTED="/home/ialy/crypto_project/crypted"
 
 
 

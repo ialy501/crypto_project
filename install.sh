@@ -20,6 +20,7 @@ fi
 if [ ! -f /bin/$script_name ]
 then
 	sudo cp $2/src/$script_name /bin/
+
 else
 	echo "$script_name already exists, please check"
 fi
