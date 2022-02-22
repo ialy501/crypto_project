@@ -1,21 +1,16 @@
 #!/bin/bash
 
-INSTALL_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
-echo "$INSTALL_DIR" >> /home/$USER/crypto_project/ialy.txt
-
-
-
 
 #variables modifiables par l'utilisateur
-DIR="/home/ialy/crypto_project/"
+DIR="/home/$USER/crypto_project/"
 CLE_PR="private.pem"
 CLE_PU="public.pem"
 SUFFIX_CR=".crypt"
 SUFFIX_DCR=".decrypt"
-DIR_CLE="/home/ialy/crypto_project/key" 
-CRYPT="/home/ialy/crypto_project/tocrypt"
-CRYPTED="/home/ialy/crypto_project/crypted"
-DECRYPT="/home/ialy/crypto_project/todecrypt"
+DIR_CLE="/home/$USER/crypto_project/key" 
+CRYPT="/home/$USER/crypto_project/tocrypt"
+CRYPTED="/home/$USER/crypto_project/crypted"
+DECRYPT="/home/$USER/crypto_project/todecrypt"
 
 
 
